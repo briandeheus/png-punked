@@ -63,6 +63,9 @@ Chunk IHDR, 13 bytes
 Chunk IDAT, 226876 bytes
 Chunk puNk, 603 bytes
 Chunk IEND, 0 bytes
+
+~ stat --format="%s" example/hide-this 
+603
 ```
 
 ## Requirements
