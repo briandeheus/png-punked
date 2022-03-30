@@ -47,6 +47,24 @@ Found a punk chunk worth 16 bytes
 Attack at dawn!!% 
 ```
 
+## Examples?
+
+The `/examples` directory contains three files:
+
+* `hide-this`, the content we want to hide
+* `source.png`, the image want to use as a source PNG.
+* `output.png`, `source.png`, with the new puNk chunk.
+
+You can verify the contents of output.png by running 
+
+```shell
+~ ./punk.py list example/output.png 
+Chunk IHDR, 13 bytes
+Chunk IDAT, 226876 bytes
+Chunk puNk, 603 bytes
+Chunk IEND, 0 bytes
+```
+
 ## Requirements
 
 * Python 3.9 > 
