@@ -108,7 +108,7 @@ def handle_inject(parser: argparse.ArgumentParser) -> None:
     args = parser.parse_args()
 
     with open(args.input, "rb") as input_file, open(
-            args.output, "wb"
+        args.output, "wb"
     ) as output_file, open(args.content, "rb") as content_file:
 
         input_file_length = get_file_length(input_file)
@@ -138,9 +138,7 @@ def handle_extract(parser: argparse.ArgumentParser) -> None:
 
     print("Attempting to extract punked data from", args.input)
 
-    with open(args.input, "rb") as input_file, open(
-            args.output, "wb"
-    ) as output_file:
+    with open(args.input, "rb") as input_file, open(args.output, "wb") as output_file:
 
         input_file_length = get_file_length(input_file)
         input_file.read(SIGNATURE_BYTES)
