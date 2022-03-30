@@ -12,7 +12,7 @@ code, [read this blogpost](https://www.brian.jp/2021/09/17/hiding-a-payload-in-p
 ### Listing PNG chunks
 
 ```shell
-./punk.py list source.png
+~ ./punk.py list source.png
 Chunk IHDR, 13 bytes
 Chunk IDAT, 226876 bytes
 Chunk IEND, 0 bytes
