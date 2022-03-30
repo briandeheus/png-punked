@@ -25,7 +25,7 @@ Chunk IEND, 0 bytes
 Chunk IHDR, 13 bytes
 Chunk IDAT, 226876 bytes
 Chunk IEND, 0 bytes
-Injecting puNK chunk 0.007944389275074478 kb
+Injecting puNk chunk 0.007944389275074478 kb
 Chunk CRC 43b7dda3
 Chunk injected!
 

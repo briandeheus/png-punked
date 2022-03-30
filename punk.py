@@ -60,7 +60,7 @@ def inject_punk_chunk(f: typing.IO, content: bytes):
     if chunk_size > MAX_BYTES:
         raise ValueError(f"Cannot inject more than {MAX_BYTES} bytes")
 
-    print(f"Injecting puNK chunk {chunk_size / BYTES_IN_KB} kb")
+    print(f"Injecting {CHUNK_TYPE_PUNK} chunk {chunk_size / BYTES_IN_KB} kb")
 
     # Create a byte array to store our chunk data in.
     tmp_bytes = bytearray()
