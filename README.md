@@ -76,3 +76,6 @@ Chunk IEND, 0 bytes
 
 [New steganography attack targets Azerbaijan](https://blog.malwarebytes.com/threat-analysis/2021/03/new-steganography-attack-targets-azerbaijan/)
 [Aurora campaign: Attacking Azerbaijan using multiple RATs](https://blog.malwarebytes.com/threat-intelligence/2021/04/aurora-campaign-attacking-azerbaijan-using-multiple-rats/)
+
+## Similar Tools
+[Pixload -- Image Payload Creating tools](https://github.com/chinarulezzz/pixload/)
